@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Fiction",
+      "copies": 5
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "copies": 3
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "copies": 7
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Romance",
+      "copies": 4
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "Fiction",
+      "copies": 6
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "copies": 8
+    },
+    {
+      "id": 7,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "category": "Dystopian",
+      "copies": 2
+    },
+    {
+      "id": 8,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "category": "Adventure",
+      "copies": 3
+    },
+    {
+      "id": 9,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "category": "Historical Fiction",
+      "copies": 4
+    },
+    {
+      "id": 10,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "category": "Epic Poetry",
+      "copies": 5
+    },
+    {
+      "id": 11,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "category": "Philosophical Fiction",
+      "copies": 6
+    },
+    {
+      "id": 12,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "category": "Philosophical Fiction",
+      "copies": 3
+    },
+    {
+      "id": 13,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "category": "Romance",
+      "copies": 5
+    },
+    {
+      "id": 14,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "category": "Epic Poetry",
+      "copies": 4
+    },
+    {
+      "id": 15,
+      "title": "The Iliad",
+      "author": "Homer",
+      "category": "Epic Poetry",
+      "copies": 3
+    },
+    {
+      "id": 16,
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "category": "Epic Poetry",
+      "copies": 2
+    },
+    {
+      "id": 17,
+      "title": "The Republic",
+      "author": "Plato",
+      "category": "Philosophy",
+      "copies": 4
+    },
+    {
+      "id": 18,
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "category": "Political Science",
+      "copies": 3
+    },
+    {
+      "id": 19,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "category": "Modernist Literature",
+      "copies": 2
+    },
+    {
+      "id": 20,
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "category": "Modernist Literature",
+      "copies": 3
+    }
+  ]

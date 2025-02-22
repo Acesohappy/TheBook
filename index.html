@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="logo">Library</a>
+      <ul class="nav-links">
+        <li><a href="#user-section">User</a></li>
+        <li><a href="#admin-section">Admin</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="#genres-section">Genres</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <h1>Welcome to the Library</h1>
+      <p>Explore the world of books!</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- User Section -->
+    <section id="user-section" class="card">
+      <h2><i class="fas fa-user"></i> User Features</h2>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search by title, author, or category">
+        <button id="search-btn" class="btn"><i class="fas fa-search"></i> Search</button>
+      </div>
+      <div id="search-results" class="results"></div>
+
+      <div class="borrow-return-container">
+        <h3><i class="fas fa-book"></i> Borrow/Return Books</h3>
+        <input type="text" id="book-id" placeholder="Enter Book ID">
+        <button id="borrow-btn" class="btn"><i class="fas fa-hand-holding"></i> Borrow</button>
+        <button id="return-btn" class="btn"><i class="fas fa-undo"></i> Return</button>
+      </div>
+      <div id="user-message" class="message"></div>
+    </section>
+
+    <!-- Admin Section -->
+    <section id="admin-section" class="card">
+      <h2><i class="fas fa-user-shield"></i> Admin Features</h2>
+      <div class="admin-container">
+        <h3><i class="fas fa-book-medical"></i> Add/Update/Remove Books</h3>
+        <input type="text" id="book-title" placeholder="Title">
+        <input type="text" id="book-author" placeholder="Author">
+        <input type="text" id="book-category" placeholder="Category">
+        <input type="number" id="book-copies" placeholder="Copies">
+        <button id="add-book-btn" class="btn"><i class="fas fa-plus"></i> Add Book</button>
+        <button id="update-book-btn" class="btn"><i class="fas fa-edit"></i> Update Book</button>
+        <button id="remove-book-btn" class="btn"><i class="fas fa-trash"></i> Remove Book</button>
+      </div>
+      <div id="admin-message" class="message"></div>
+    </section>
+
+    <!-- Famous Quotes -->
+    <section id="quotes-section">
+      <div class="quotes-container">
+        <blockquote>"So many books, so little time." – Frank Zappa</blockquote>
+        <blockquote>"A room without books is like a body without a soul." – Marcus Tullius Cicero</blockquote>
+        <blockquote>"The only thing that you absolutely have to know is the location of the library." – Albert Einstein</blockquote>
+      </div>
+    </section>
+
+    <!-- Genres Section -->
+    <section id="genres-section" class="card">
+      <h2><i class="fas fa-bookmark"></i> Genres</h2>
+      <div class="genres-container">
+        <div class="genre">
+          <h3>Fiction</h3>
+          <p>Explore imaginative stories and characters.</p>
+        </div>
+        <div class="genre">
+          <h3>Non-Fiction</h3>
+          <p>Discover real-world knowledge and facts.</p>
+        </div>
+        <div class="genre">
+          <h3>Mystery</h3>
+          <p>Unravel thrilling puzzles and suspense.</p>
+        </div>
+        <div class="genre">
+          <h3>Science Fiction</h3>
+          <p>Journey into futuristic worlds and ideas.</p>
+        </div>
+        <div class="genre">
+          <h3>Romance</h3>
+          <p>Experience love and heartfelt stories.</p>
+        </div>
+        <div class="genre">
+          <h3>Fantasy</h3>
+          <p>Enter magical realms and adventures.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="suggestion-box">
+        <h3><i class="fas fa-comment"></i> Suggestions?</h3>
+        <p>We value your feedback! Let us know how we can improve your library experience.</p>
+        <textarea id="suggestion-input" placeholder="Your suggestions are valuable to us!"></textarea>
+        <button id="submit-suggestion-btn" class="btn"><i class="fas fa-paper-plane"></i> Submit</button>
+      </div>
+    </div>
+    <p>&copy; 2023 Library Management System. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

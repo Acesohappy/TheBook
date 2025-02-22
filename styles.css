@@ -1,0 +1,308 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bookshelf-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #4a4a4a;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #8b7355;
+    padding: 10px 0;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-image: url('images/12\ beautiful\ iPad\ wallpapers\ for\ a\ book\ lover.jpeg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f5f0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6b5a4a;
+  }
+  
+  /* Genres Section Heading */
+  #genres-section h2 {
+    color:  #5e351a; /* Orange color for Genres heading */
+  }
+  
+  /* User Features Section Heading */
+  #user-section h2 {
+    color:  #503320; /* Blue color for User Features heading */
+  }
+  
+  /* Admin Features Section Heading */
+  #admin-section h2 {
+    color:  #503320; /* Red color for Admin Features heading */
+  }
+  
+  /* Input and Button Styles */
+  input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button.btn {
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #8b7355;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn:hover {
+    background-color: #6b5a4a;
+  }
+  
+  button.btn i {
+    margin-right: 5px;
+  }
+  
+  /* Search and Results */
+  .search-container, .borrow-return-container, .admin-container {
+    margin-bottom: 20px;
+  }
+  
+  .results {
+    margin-top: 10px;
+  }
+  
+  .results div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .results div:hover {
+    background-color: #f0e6d8;
+  }
+  
+  .results div strong {
+    color: #8b7355;
+  }
+  
+  .results div em {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  /* Messages */
+  .message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #user-message {
+    background-color: #e8f5e9;
+    color: #503320;
+  }
+  
+  #admin-message {
+    background-color: #ffebee;
+    color: #503320;
+  }
+  
+  /* Quotes Section */
+  #quotes-section {
+    margin: 20px 0;
+  }
+  
+  .quotes-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .quotes-container blockquote {
+    font-style: italic;
+    color: #6b5a4a;
+    border-left: 5px solid #8b7355;
+    padding-left: 15px;
+    margin: 10px 0;
+    flex: 1;
+  }
+  
+  /* Genres Section */
+  #genres-section .genres-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .genre {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .genre:hover {
+    transform: translateY(-5px);
+  }
+  
+  .genre h3 {
+    color: #644a2a;
+  }
+  
+  .genre p {
+    color: #6b5a4a;
+  }
+  
+  /* Footer */
+  footer {
+    background-image: url('images/12\ beautiful\ iPad\ wallpapers\ for\ a\ book\ lover.jpeg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+  
+  .footer-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .suggestion-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .suggestion-box h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .suggestion-box p {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
+  }
