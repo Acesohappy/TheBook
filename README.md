@@ -1,9 +1,8 @@
 ### **README.md**
 
-
 # Library Management System
 
-![Library Header](/images/library-picture.jpeg)
+![Library Header](/images/library%20picture.jpeg)
 
 A simple and intuitive **Library Management System** built using **HTML**, **CSS**, and **JavaScript**. This system allows users to search for books, borrow and return books, and manage inventory. It also includes features for librarians to add, update, or remove books from the system.
 
@@ -47,13 +46,13 @@ A simple and intuitive **Library Management System** built using **HTML**, **CSS
 ![Home Page](/screenshots/homepage.PNG)
 
 ### Search Results
-![Search Results](/screenshots/SearchResults.PNG)
+![Search Results](/screenshots/searchresults.PNG)
 
 ### Admin Section
-![Admin Section](/screenshots/AdminFeatures.PNG)
+![Admin Section](/screenshots/adminfeatures.PNG)
 
 ### Genres Section
-![Genres Section](/screenshots/Genres.PNG)
+![Genres Section](/screenshots/genressection.PNG)
 
 ---
 
@@ -125,7 +124,7 @@ The `books.json` file contains the list of books with the following structure:
     "category": "Fiction",
     "copies": 7
   }
-  // More books...
+
 ]
 ```
 
