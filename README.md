@@ -1,4 +1,3 @@
-### **README.md**
 
 # Library Management System
 
@@ -44,10 +43,10 @@ A simple and intuitive **Library Management System** built using **HTML**, **CSS
 ![Home Page](/screenshots/homepage.PNG)
 
 ### Search Results
-![Search Results](/screenshots/searchresults.PNG)
+![Search Results](/screenshots/SearchResults.PNG)
 
 ### Admin Section
-![Admin Section](/screenshots/adminfeatures.PNG)
+![Admin Section](/screenshots/AdminFeatures.PNG)
 
 ### Genres Section
 ![Genres Section](/screenshots/genressection.PNG)
