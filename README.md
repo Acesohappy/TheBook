@@ -3,7 +3,7 @@
 
 # Library Management System
 
-![Library Header](/images/12%20beautiful%20iPad%20wallpapers%20for%20a%20book%20lover.jpeg)
+![Library Header](/images/library-picture.jpeg)
 
 A simple and intuitive **Library Management System** built using **HTML**, **CSS**, and **JavaScript**. This system allows users to search for books, borrow and return books, and manage inventory. It also includes features for librarians to add, update, or remove books from the system.
 
