@@ -1,5 +1,3 @@
-Here’s a **README.md** file for your **Library Management System** project. This file provides an overview of the project, instructions for setting it up, and other relevant details.
-
 ---
 
 ### **README.md**
@@ -7,7 +5,7 @@ Here’s a **README.md** file for your **Library Management System** project. Th
 ```markdown
 # Library Management System
 
-![Library Header](library-header.jpg)
+![Library Header](/images/12%20beautiful%20iPad%20wallpapers%20for%20a%20book%20lover.jpeg)
 
 A simple and intuitive **Library Management System** built using **HTML**, **CSS**, and **JavaScript**. This system allows users to search for books, borrow and return books, and manage inventory. It also includes features for librarians to add, update, or remove books from the system.
 
@@ -48,16 +46,16 @@ A simple and intuitive **Library Management System** built using **HTML**, **CSS
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home-page.png)
+![Home Page](/screenshots/homepage.PNG)
 
 ### Search Results
-![Search Results](screenshots/search-results.png)
+![Search Results](/screenshots/SearchResults.PNG)
 
 ### Admin Section
-![Admin Section](screenshots/admin-section.png)
+![Admin Section](/screenshots/AdminFeatures.PNG)
 
 ### Genres Section
-![Genres Section](screenshots/genres-section.png)
+![Genres Section](/screenshots/Genres.PNG)
 
 ---
 
@@ -69,12 +67,12 @@ A simple and intuitive **Library Management System** built using **HTML**, **CSS
 ### Steps to Run the Project
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/library-management-system.git
+   git clone https://github.com/your-username/TheBook.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd library-management-system
+   cd TheBook
    ```
 
 3. **Open the Project**:
@@ -85,18 +83,18 @@ A simple and intuitive **Library Management System** built using **HTML**, **CSS
 ## Project Structure
 
 ```
-library-management-system/
+TheBook/
 ├── index.html            # Main HTML file
 ├── styles.css            # CSS file for styling
 ├── script.js             # JavaScript file for functionality
 ├── books.json            # JSON file containing book data
-├── library-header.jpg    # Header background image
-├── library-footer.jpg    # Footer background image
+├── images/               # Header background image
+├── library-picture.jpg   # Footer background image
 ├── screenshots/          # Folder containing screenshots
-│   ├── home-page.png
-│   ├── search-results.png
-│   ├── admin-section.png
-│   └── genres-section.png
+│   ├── homepage.png
+│   ├── searchresults.png
+│   ├── adminfeatures.png
+│   └── genressection.png
 └── README.md             # Project documentation
 ```
 
@@ -193,8 +191,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: your.email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: anubama2006@gmail.com
+- **GitHub**: https://github.com/Acesohappy
 
 ---
 
@@ -218,12 +216,3 @@ Happy Reading! 📚
 12. **Contact**: Contact information for questions or feedback.
 
 ---
-
-### **How to Add Screenshots**
-1. Take screenshots of your project (e.g., home page, search results, admin section).
-2. Save them in a `screenshots` folder within your project directory.
-3. Update the `![Alt Text](screenshots/filename.png)` links in the README to point to your screenshots.
-
----
-
-Let me know if you need further assistance! 😊
